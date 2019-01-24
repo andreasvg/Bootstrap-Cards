@@ -1,0 +1,73 @@
+
+.myCard {
+  width: 280px;
+  height: 400px ;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.my-card-area {
+  height: 400px;
+}
+
+.cardName {
+  text-align: center;
+  font-size: 10pt;
+  color: hsl(130, 64%, 36%);
+}
+
+.my-card-title {
+  color: hsl(130, 64%, 36%);
+}
+.my-card-subtitle {
+  font-size: 10pt;
+}
+
+.my-card-description {
+  height: 100px;
+  font-size: 8pt;
+}
+
+.my-mail-link {
+  margin-top: 10px;
+}
+
+.truncate {
+  height: 60px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.photo-container {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+
+  img {
+    width: 100%;
+    // height: 100%;
+    object-fit: cover;
+    align-self: center;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+}
+
+.photo-containerOLD {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 50%;
+  height: auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+
+    align-self: center;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+}

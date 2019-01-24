@@ -1,0 +1,48 @@
+[
+  {
+    "firstName": "Konstantin Joachim",
+    "lastName": "von Mohackel",
+    "jobTitle": "Group CEO",
+    "photoUrl": "assets/images/mohackel.jpg",
+    "education": "MBA - Harvard Business School",
+    "headline": "The Arctic Group is led by Konstantin Joachim von Mohackel, who has served as Group CEO and Supreme Leader since 2016.",
+    "email": "mohackel@arcticgroup.com"
+  },
+  {
+    "firstName": "Nici",
+    "lastName": "von Schnabelshausen",
+    "jobTitle": "PA to Group CEO",
+    "photoUrl": "assets/images/nici.jpg",
+    "education": "MA Performing Arts - Berklee",
+    "headline": "Nici joined The Arctic Group in 2018 to run the London office administration.",
+    "email": "nici@arcticgroup.com"
+  },
+  {
+    "firstName": "Simone",
+    "lastName": "Escherle",
+    "jobTitle": "Director: Arctic Marmot",
+    "photoUrl": "assets/images/se.jpg",
+    "education": "MA Linguistics - Saarbrücken",
+    "headline": "Simone is the founding Director of Arctic Marmot.",
+    "email": "simone@arcticgroup.com"
+  },
+  {
+    "firstName": "Andreas",
+    "lastName": "van Greunen",
+    "jobTitle": "Director: Arctic Bear",
+    "photoUrl": "assets/images/avg.jpg",
+    "education": "ND IT - Cape Town",
+    "headline": "Andreas is the founding Director of Arctic Bear.",
+    "email": "andreas@arcticgroup.com"
+  },
+  {
+    "firstName": "Sau-lin",
+    "lastName": "Liu",
+    "jobTitle": "Security Officer",
+    "photoUrl": "assets/images/clare.jpg",
+    "education": "BCOM - Shanghai",
+    "headline": "Sau-lin is responsible for the digital security and compliance for The Arctic Group. She has a background in IT security and legal compliance, having worked in the banking and legal sectors in London since 1998. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id vehicula risus, eget blandit tortor. Aliquam eu diam velit. Aliquam blandit non arcu sed fermentum. Fusce nec nisi ac leo facilisis efficitur et tempor velit. Aliquam fermentum erat ut consectetur pretium. Nulla vitae libero id nisl rhoncus vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vitae nunc iaculis, suscipit enim eget, placerat sem. Ut dignissim pharetra orci, consequat mollis risus molestie lobortis. Donec luctus suscipit diam non gravida. Nulla eu dapibus ligula. Etiam lacus magna, aliquet eu lacus id, laoreet commodo neque. Aliquam erat volutpat. In eget lorem eget tellus placerat interdum non quis nisi. Sed at orci vestibulum, faucibus libero nec, venenatis diam. Proin semper justo quam, a consectetur nibh cursus in.",
+    "email": "sau-lin@arcticgroup.com"
+  }
+
+]

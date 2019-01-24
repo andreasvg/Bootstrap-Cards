@@ -1,0 +1,82 @@
+<!-- <div style="width: 300px; height: 300px;">
+  <ngx-flip [flip]="flipDiv">
+    <div front >
+      <h4>Front</h4>
+      <button class="btn btn-primary btn-small" (click)="flip()">Flip</button>
+    </div>
+
+
+    <div back>
+      <h4>Back</h4>
+      <button class="btn btn-primary btn-small" (click)="flip()">Flip</button>
+    </div>
+  </ngx-flip>
+</div> -->
+
+
+
+
+<div class="myCard">
+    <ngx-flip [flip]="flipDiv">
+      <div front>
+      <div  class="my-card-area card card-fluid bg-light">
+        <div class="card-body">
+          <a class="float-right" (click)="flip()"><i class="fas fa-undo"></i></a>
+          <h5 class="my-card-title card-title">{{employee.jobTitle}}</h5>
+          <div class="my-card-subtitle text-muted">{{employee.education}}</div>
+        </div>
+        <div class="photo-container rounded-circle border">
+          <img src="{{employee.photoUrl}}" class="border-dark image-fluid">
+        </div>
+        <div class="card-body">
+          <h4 class="cardName">{{employee.firstName}} {{employee.lastName}}
+          </h4>
+          <p class="card-text  my-card-description" ellipsis>
+            {{employee.headline}}
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div back>
+      <div  class="my-card-area card card-fluid bg-light">
+        <div class="card-body">
+            <a class="float-right" (click)="flip()"><i class="fas fa-undo"></i></a>
+            <h4 class="cardName">{{employee.firstName}} {{employee.lastName}}
+            <div class="my-mail-link"><a href="mailto:{{employee.email}}"><i class="far fa-envelope"></i> {{employee.email}}</a></div>
+
+          </h4>
+          <p class="card-text  my-card-description">
+            {{employee.headline}}
+          </p>
+
+        </div>
+      </div>
+    </div>
+    </ngx-flip>
+    </div>
+
+
+<!-- <div style="margin-top: 10px; height: 300px; width: 300px;" class="bg-primary">
+
+</div> -->
+
+
+<!-- <div class="myCard card card-fluid bg-light">
+      <div class="card-body">
+        <h5 class="my-card-title card-title">{{employee.jobTitle}}</h5>
+        <div class="my-card-subtitle text-muted">{{employee.education}}</div>
+      </div>
+      <div class="photo-container rounded-circle border">
+        <img src="{{employee.photoUrl}}" class="border-dark image-fluid">
+      </div>
+      <div class="card-body">
+        <h4 class="cardName">{{employee.firstName}} {{employee.lastName}}
+        </h4>
+        <p class="card-text  my-card-description" ellipsis>
+          {{employee.headline}}
+        </p>
+      </div>
+    </div> -->
